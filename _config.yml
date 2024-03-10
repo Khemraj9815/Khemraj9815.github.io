@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: khem  # the main title
+title: its'khem  # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Stay Focus! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: Khemraj # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -66,7 +66,7 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode:  [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

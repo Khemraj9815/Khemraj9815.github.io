@@ -6,7 +6,7 @@ tags: [DBS101]
 
 ## Date: Feb 27, 2024
 
-### Summary
+### Summary.
 
 Today's flipped class content was less to discuss. It was on set operation of SQL where it is used to combine multiple table to get desired table and the null value. SQL set operation will be implemented only if the table have same number of columns and that corresponding columns must have same data type. So it's important to compare the data type and number of column before implementing SQL set operation. A null represents the absence value for unknown data/lost data. 
 

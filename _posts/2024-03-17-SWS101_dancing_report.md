@@ -14,17 +14,17 @@ Target: 10.129.59.7
 
 ## Information Gathering Phase
 Port Scanning with Nmap:
-````
-nmap -sV -p- 10.129.59.7
-````
+
+        nmap -sV -p- 10.129.59.7
+
 ![dancingnmap](/assets/img/nmapdancing.png)
 
 *  Open ports discovered.
 
 ## Enumeration Phase
-````
-smbclient -L 10.129.59.7
-````
+
+        smbclient -L 10.129.59.7
+
 ![dancing-l](/assets/img/dancingl.png)
 
 * SMB Shares: Found an SMB share.
@@ -35,9 +35,8 @@ smbclient //10.129.59.7/ADMIN$ -N
 ![dancingadmin](/assets/img/dancinglog.png)
 Unable to connect.
 
-````
-smbclient //10.129.59.7/IPCS$ -N
-````
+        smbclient //10.129.59.7/IPCS$ -N
+
 ![dancingadmin](/assets/img/dancingf.png)
 * I was able to login but there isn't anything.
 

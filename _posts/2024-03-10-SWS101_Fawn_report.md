@@ -15,9 +15,9 @@ Target: 10.129.220.120
 ## Information Gathering Phase
 Port Scanning with Nmap:
 
-````
-nmap -sV -vv 10.129.220.120
-````
+
+        nmap -sV -vv 10.129.220.120
+
 
 ![check flag](/assets/img/nmap.png)
 
@@ -25,9 +25,9 @@ nmap -sV -vv 10.129.220.120
 * Service version identified: “vsFTPd 3.0.3.”
 * OS: unix
 
-````
-ftp 10.129.220.120
-````
+
+        ftp 10.129.220.120
+
 Results of FTP Enumeration:
 ![check flag](/assets/img/login.png)
 
@@ -36,14 +36,14 @@ Results of FTP Enumeration:
 
 ## Exploitation Phase
 * Check for “flag.txt” file.
-````
-ls
-````
+
+        ls
+
 
 ![check flag](/assets/img/checkflag.png)
-````
-get flag.txt
-````
+
+        get flag.txt
+
 
 * Retrieved the contents of “flag.txt” using the “get”command.
 ![get flag](/assets/img/get.png)

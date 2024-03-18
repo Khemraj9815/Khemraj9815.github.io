@@ -14,9 +14,9 @@ Target: 10.129.30.253
 
 ## Information Gathering Phase:
 Port Scanning with Nmap:
-````
-nmap -sV -vv 10.129.30.253
-````
+
+        nmap -sV -vv 10.129.30.253
+
 ![nmapmeow](/assets/img/nmapmeow.png)
 
 *  The target system had only one open port: 23/tcp (Telnet).
@@ -25,9 +25,9 @@ nmap -sV -vv 10.129.30.253
 
 ## Enumeration of Telnet Service:
 ### Enumerate Telnet:
-````
-telnet 10.129.30.253
-````
+
+        telnet 10.129.30.253
+
 
 ## Results of Telnet Enumeration:
 * Logged in as the root user.
@@ -37,10 +37,10 @@ telnet 10.129.30.253
 
 ## Exploitation Phase
 * check for the flag.txt.
-````
-ls
-cat flag.txt
-````
+
+        ls
+        cat flag.txt
+
 * Finally got the flag.
 ![get flag](/assets/img/meowflag.png)
 

@@ -3,7 +3,10 @@ Title: SWS101 Flipped_class
 categories: [SWS101,Dancing Report]
 tags: SWS 101
 ---
+
 ![Dancing](/assets/img/dancing.jpeg)
+## Executive Summary
+This panetration test was conducted on the target machine Dancing of the hack the box. The Objective of this penetration test is to check the security of the system and our ability to access the sensitive information in the system. The primary goal is the find the "flag.txt" and retrive it.
 
 # Penetration Test Report
 Target: 10.129.59.7

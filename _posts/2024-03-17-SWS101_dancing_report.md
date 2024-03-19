@@ -1,6 +1,6 @@
 ---
-Title: SWS101 Flipped_class
-categories: [SWS101,Dancing Report]
+Title: SWS101 Dancing Report
+categories: [SWS101,HACK THE BOX TIER_0]
 tags: SWS 101
 ---
 
@@ -10,7 +10,6 @@ This panetration test was conducted on the target machine Dancing of the hack th
 
 # Penetration Test Report
 Target: 10.129.59.7
-
 
 ## Information Gathering Phase
 Port Scanning with Nmap:

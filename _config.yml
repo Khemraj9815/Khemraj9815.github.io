@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: Khemraj # change to your github username
+  username: Khemraj9815 # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -34,8 +34,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Khem Raj Ghalley
+  email: 02230286.cst@rub.edu.bt # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -66,7 +66,7 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:  [light | dark]
+theme_mode:  # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

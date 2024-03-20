@@ -20,12 +20,14 @@ Port Scanning with Nmap:
 - -T4: scan faster with less detail.
 - -F: checks for most common ports.
 -  -oN initial_scan: it save the scaned result to a file named initial_scan.
+
 ![nmap](/assets/img/sequelnmap.png)
 
 Target machine has port 3306 open, which is default port used by MySQL.
 
 ### Servise scan:
         nmap -sS -sV -sC -p 3306 --max-retries 2 --max-scan-delay 50ms --open -n -v -oN service_scan 10.129.95.232
+
 - -sS: checks the status of port 3306 without connecting it fully.
 - -sV: find what services is running on port 3306.
 - -sC: ask nmap to scan more detailly on the services running on port 3306.
@@ -34,6 +36,7 @@ Target machine has port 3306 open, which is default port used by MySQL.
 - --open: just show the open ports.
 - -n: ship looking for hostname.
 - -v: it gives detailed output.
+
 ![service scan](/assets/img/servicescansequel.png)
 
 Servise scan reveals that port 3306 is running MariaDB version 10.3.27.
@@ -46,6 +49,7 @@ Servise scan reveals that port 3306 is running MariaDB version 10.3.27.
 ![mysql](/assets/img/sequeluser.png)
 
 It's time to Google.
+
 ![mysql](/assets/img/sequelmariagoogle.png)
 ![mysql](/assets/img/sequelmariaroot.png)
 
@@ -86,6 +90,7 @@ let's see what is in the htb database.
 ![htb table](/assets/img/sequelhtbtable.png)
 
 Now let's see what is there in the config table.
+
 ![table](/assets/img/sequelcongiftable.png)
 
 `        SELECT * FROM <table_name>

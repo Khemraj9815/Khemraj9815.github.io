@@ -98,6 +98,7 @@ Now let's see what is there in the config table.
 `![flag](/assets/img/sequelflag.png)
 
         flag: 7b4bec00d1a39e3dd4e021ec3d915da8
+        
 This is what we want!!!
 
 ### Conclusion

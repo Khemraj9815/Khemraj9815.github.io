@@ -1,6 +1,6 @@
 ---
 Title: SWS101 Fawn Report
-categories: [SWS101,HACK THE BOX TIER_0]
+categories: [SWS101, HACK THE BOX TIER_0]
 tags: SWS 101
 ---
 

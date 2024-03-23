@@ -4,10 +4,6 @@ categories: [DBS101, Flipped_Class4]
 tags: [DBS101]
 ---
 
-## Date: March 11 2024
-
-## Summary
-
 ### Pivot 
 * Its a tools that transform rows of data into column.
 * Make table easier to analyze and present data in more readable format.
@@ -33,7 +29,6 @@ Rollup function is used calculate total of each level in hierarchical manner. An
 
 ![rank table](/assets/img/rollup.png)
 
-
 Cube calculates the total of all possible combination unlike rollup.
 
 ![rank table](/assets/img/cube.png)
@@ -41,5 +36,7 @@ Cube calculates the total of all possible combination unlike rollup.
 ---
 
 We were divided into four group with each topic that was Advanced Aggregation Functions. After discussion of topic with group member, each member of each group presented on their topic. 
+
+---
 
 This kind of activity helps us to build confident to come infront of whole class and speak/present.

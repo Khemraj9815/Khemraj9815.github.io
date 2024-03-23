@@ -3,11 +3,11 @@ Title: SWS101 Redeemer Report
 categories: [SWS101,HACK THE BOX TIER_1]
 tags: SWS 101
 ---
+
 ![redeemer](/assets/img/redeemer/redeeme.png)
 
 ## Executive Summary
 In this penetration test, we explore Redeemer machine hosted on HACK THE BOX with the aim of accessing system security and our primary goal is to obtain flag. 
-
 
 ## Penetration Test Report
 
@@ -51,4 +51,5 @@ Got the flag!!!
 
 
 ### Conclusion 
+
 This penetration test demonstrate our ability to get into the redis server to get the flag.

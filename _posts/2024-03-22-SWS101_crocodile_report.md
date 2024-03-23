@@ -17,9 +17,11 @@ Port Scanning with Nmap:
 
         nmap -sV 10.129.1.15
 
+
 ![crocodile nmap](/assets/img/crocodilenmap.png)
 
-*  Open ports discovered.
+Open ports discovered.
+
 - Port 21/tcp: Running vsftpd 3.0.3 (FTP server).
 - Port 80/tcp: Running Apache httpd 2.4.41 (Web server) on Ubuntu.
 

@@ -22,8 +22,8 @@ Port Scanning with Nmap:
 
 Open ports discovered.
 
-- Port 21/tcp: Running vsftpd 3.0.3 (FTP server).
-- Port 80/tcp: Running Apache httpd 2.4.41 (Web server) on Ubuntu.
+* Port 21/tcp: Running vsftpd 3.0.3 (FTP server).
+* Port 80/tcp: Running Apache httpd 2.4.41 (Web server) on Ubuntu.
 
 ![port 21](/assets/img/crocodile/port21.png)
 

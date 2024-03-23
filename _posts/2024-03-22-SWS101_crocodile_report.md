@@ -4,7 +4,7 @@ categories: [SWS101,HACK THE BOX TIER_1]
 tags: SWS 101
 ---
 
-![Dancing](/assets/img/crocodile.jpeg)
+![crocodile](/assets/crocodile/crocodile.jpeg)
 
 ## Executive Summary
 This panetration test was conducted on the target machine Crocodile which is hosted on hack the box. The Objective of this penetration test is to check the security of the system and our ability to access the sensitive information in the system. The primary goal is the obtain the flag.
@@ -18,7 +18,7 @@ Port Scanning with Nmap:
         nmap -sV 10.129.1.15
 
 
-![crocodile nmap](/assets/crocodilenmap.png)
+![crocodile nmap](/assets/crocodile/crocodilenmap.png)
 
 Open ports discovered.
 

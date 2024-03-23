@@ -16,13 +16,14 @@ Target: 10.129.8.172
 ## Information Gathering Phase:
 Port Scanning with Nmap:
 
+
         nmap -sV -T4 -p1-10000 10.129.8.172
 
 
 ![nmap](/assets/img/redeemer/redeemernmap.png)
 
-* Open ports discovered: 6379/tcp
-* Service version identified: Redis 5.0.7
+Open ports discovered: 6379/tcp
+Service version identified: Redis 5.0.7
 
 ![redis](/assets/img/redeemer/redis.png)
 
@@ -33,7 +34,9 @@ Port Scanning with Nmap:
 
 ![redis --help](/assets/img/redeemer/redishelp.png)
 
+
         redis-cli -h 10.129.8.172
+
 
 ![redis key](/assets/img/redeemer/rediskey.png)
   
@@ -46,6 +49,7 @@ Connected to redis server uaing redis-cli.
 ![flag](/assets/img/redeemer/redeemerlist.png)
 
 Got the flag!!!
+
 
         flag: 03e1d2b376c37ab3f5319922053953eb
 

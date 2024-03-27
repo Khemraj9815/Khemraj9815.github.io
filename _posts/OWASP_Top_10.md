@@ -1,6 +1,6 @@
 ---
-Title: SWS101 Sequel Report
-categories: [SWS101,HACK THE BOX TIER_1]
+Title: SWS101 OWASP TOP 10
+categories: [SWS101,UNIT 3]
 tags: SWS 101
 ---
 

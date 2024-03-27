@@ -74,8 +74,27 @@ Security misconfigurations include:
 
 ![Vulnerable](../assets/owasp/outdate.png)
 
+When developer use outdated application, which is not maintained or updated, this leads for attacker to introduce malicious component.
 
 ![Vulnerable](../assets/owasp/Vulnerable.png)
+
+To be at the safer side we have to keep all components up to date with the latest security patches.
+
+
+### 7. Identification and Authentication Failures
+
+![identification](../assets/owasp/identification.png)
+
+It is the application problem that it fali to recognize who is user and whether they are the main user.
+
+* It happens when user use weak credentials, which makes easy for hacker to exploit.
+* If session cookies contain predictable value, attacker can set their own cookies to access user account.
+
+How to prevent theem:
+* Use strong password.
+* Use Multi-Factor Authentication.
+* Regularly update password.
+
 
 Coming soon..
 

@@ -4,7 +4,7 @@ categories: [SWS101,CTF Journal]
 tags: SWS 101
 ---
 
-![alt text](../assets/ignite/0_kgd5qTNuGW-9tsJ-.webp)
+
 
 
 ## Executive Summary

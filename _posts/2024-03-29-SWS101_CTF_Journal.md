@@ -37,13 +37,22 @@ got extra imformation.
 
 ![login](../assets/ignite/igniteadmid.png)
 
-![search sploit](../assets/ignite/igniteenumeration.png)
+![login](../assets/ignite/ignitelogin.png)
+
+![desktop](../assets/ignite/ignitedesktop.png)
 
 we can perform Remote Code Execution.
 
 ![alt text](../assets/ignite/ignitevuln.png)
 
-Lets try RCE which is given above "php/webapps/50477.py"
+![search sploit](../assets/ignite/searchsploit.png)
+
+Got more information...
+
+![enumeration](../assets/ignite/igniteenumeration.png)
+
+First download the script and lets try RCE. 
+
 
 
 

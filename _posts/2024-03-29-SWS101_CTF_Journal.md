@@ -33,14 +33,16 @@ This is web page for given ip address.
 
 ![webpage](../assets/ignite/ignitewebpage.png)
 
-got extra imformation.
+When I sneak around the website I found username and password to login. 
 
 ![login](../assets/ignite/igniteadmid.png)
 
 ![login](../assets/ignite/ignitelogin.png)
 
+After logging in, this is what I got.
 ![desktop](../assets/ignite/ignitedesktop.png)
 
+when I search more about it I found it's vulnerablities.
 we can perform Remote Code Execution.
 
 ![alt text](../assets/ignite/ignitevuln.png)
@@ -52,7 +54,15 @@ Got more information...
 ![enumeration](../assets/ignite/igniteenumeration.png)
 
 First download the script and lets try RCE. 
+Got a shell and found the flag
+![flag 1](../assets/ignite/flag1.png)
 
+
+### Privilage Escalation
+
+Lets try to get root account
+
+![linpease](../assets/ignite/linpeas.png)
 
 
 

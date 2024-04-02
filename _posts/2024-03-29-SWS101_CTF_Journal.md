@@ -4,7 +4,7 @@ categories: [SWS101,CTF Journal]
 tags: SWS 101
 ---
 
-
+![ignite](../assets/ignite/ignite.png)
 
 
 ## Executive Summary
@@ -64,8 +64,16 @@ Lets try to get root account
 
 ![linpease](../assets/ignite/linpeas.png)
 
+![fuel](../assets/ignite/ignitefuel.png)
 
+![application](../assets/ignite/igniteapplication.png)
 
+![config](../assets/ignite/igniteconfig.png)
 
+![database](../assets/ignite/ignitedb.png)
 
+![root password](../assets/ignite/rootpsw.png)
+
+I got the root password.
+Now, to access the root I have to get a reverse shell to retrive the flag. 
 

@@ -6,7 +6,7 @@ tags: SWS 101
 
 ![ignite](../assets/ignite/ignite.png)
 
-
+![alt text](../assets/ignite/Screenshot_from_2024-04-02_13-21-20-removebg-preview.png)
 ## Executive Summary
 
 

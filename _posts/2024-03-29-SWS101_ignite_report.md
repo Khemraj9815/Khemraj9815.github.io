@@ -75,3 +75,4 @@ Lets try to get root account
 I got the root password.
 Now, to access the root I have to get a reverse shell to retrive the flag. 
 
+![meme](../assets/ignite/meme.gif)

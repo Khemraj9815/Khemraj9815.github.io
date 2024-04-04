@@ -40,7 +40,7 @@ I don't have any clue what what are username and password.
 
 let's break it using hydra
 
-user name is "admin"
+ohh user name is "admin"
 ![username](../assets/bruteit/usernameadmin.png)
 
 ![hydra](../assets/bruteit/hydra.png)
@@ -57,6 +57,18 @@ Got password for admin!!!
 ![rsa pk](../assets/bruteit/rsapk.png)
 
 ![what](../assets/bruteit/what.gif)
+
+![five hours later](../assets/bruteit/hours.gif)
+
+finally I got the solution to crack the hash.
+
+ go to this [link](https://www.onlinehashcrack.com/tools-private-key-ssh-rsa-dsa-openssh-hash-extractor.php) and convert rsa_id to hash.
+
+    $ john rockyou.txt <name of file which has hash.txt>
+![john](../assets/bruteit/john.png)
+
+Though I got the solution but due to poor condition of my laptop I could not crack the hash.
+
 
 
 Work in progress

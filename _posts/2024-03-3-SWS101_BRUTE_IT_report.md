@@ -25,9 +25,39 @@ Nmap Scan:
     Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 
+this is what is got
+![web page](../assets/bruteit/btutewebpage.png)
+
 Lets see the hidden dir
 
 ![gobuster](../assets/bruteit/gobuster.png)
+
+Navigate to /admin
+
+![login page](../assets/bruteit/brutelogin.png)
+
+I don't have any clue what what are username and password.
+
+let's break it using hydra
+
+user name is "admin"
+![username](../assets/bruteit/usernameadmin.png)
+
+![hydra](../assets/bruteit/hydra.png)
+
+![how to use hydra](../assets/bruteit/howtousehydra.png)
+
+![hydra applyed](../assets/bruteit/hydraapply.png)
+
+Got password for admin!!!
+![web pass](../assets/bruteit/webpass.png)
+
+![admin webpage](../assets/bruteit/rsaprivatekey.png)
+
+![rsa pk](../assets/bruteit/rsapk.png)
+
+![what](../assets/bruteit/what.gif)
+
 
 Work in progress
 

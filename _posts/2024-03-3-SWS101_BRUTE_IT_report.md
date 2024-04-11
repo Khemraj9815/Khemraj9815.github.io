@@ -4,8 +4,15 @@ categories: [SWS101,CTF Journal]
 tags: SWS 101
 ---
 
-![alt text](../assets/bruteit/btuteit.png)
+![brute it](../assets/bruteit/btuteit.png)
 
+### Executive Summary
+
+This pepetration test was held on the tryhackme machine "Brute it" with the primary objective of escalating privilege and retrieving user.txt and root.txt.   
+
+### Information Gathering Phase
+
+Target: 10.10.155.162
 
 Nmap Scan:
 
@@ -13,19 +20,8 @@ Nmap Scan:
 
 ![nmap](../assets/bruteit/brutenmap.png)
 
-    PORT   STATE SERVICE VERSION
-    22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
-    | ssh-hostkey: 
-    |   2048 4b:0e:bf:14:fa:54:b3:5c:44:15:ed:b2:5d:a0:ac:8f (RSA)
-    |   256 d0:3a:81:55:13:5e:87:0c:e8:52:1e:cf:44:e0:3a:54 (ECDSA)
-    |_  256 da:ce:79:e0:45:eb:17:25:ef:62:ac:98:f0:cf:bb:04 (ED25519)
-    80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
-    |_http-server-header: Apache/2.4.29 (Ubuntu)
-    |_http-title: Apache2 Ubuntu Default Page: It works
-    Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
-
 this is what is got
+
 ![web page](../assets/bruteit/btutewebpage.png)
 
 Lets see the hidden dir
@@ -69,9 +65,39 @@ finally I got the solution to crack the hash.
 
 Though I got the solution but due to poor condition of my laptop I could not crack the hash.
 
+![ssh](../assets/bruteit/sshrsa.png)
+
+lets Go...
 
 
-Work in progress
+### Enumeration Phase
+
+![enumeration](../assets/bruteit/enumeration.png)
+
+I was able to login successfully.
+
+Now find user.txt
+
+### Privilege Escalation
+
+![root hash](../assets/bruteit/rootpass.png)
+
+I got the hash for root user.
+
+
+let's crack it!!!
+
+![crack root hash](../assets/bruteit/rootpwd.png)
+
+![root flag](../assets/bruteit/rootflag.png)
+
+
+![yeah](../assets/bruteit/yeah.gif)
+
+### Final Thought
+
+It is  interestinig room for begineer, it let us to use new tools like hydra which has unique and it was easy to use. It also introduce to new tool 'john', which I never heard about it.
+
 
 
 

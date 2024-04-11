@@ -22,7 +22,6 @@ In this flipped class I have learned the important structured approach to build 
 ### 3. Create Relationships among Tables
 * relationship between table makes easier to understand the organization of data.
 
-
 ![normal](../assets/img/normal.png)
 ### 4. Refine & Normalize the Design
 * essential for reducing redundancy.

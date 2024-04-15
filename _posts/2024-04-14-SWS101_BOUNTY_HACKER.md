@@ -6,7 +6,8 @@ tags: SWS 101
 
 ![bounty hacks](../assets/bountyhacker/bountyhacker.png)
 
-### Penetration Test Report
+## Penetration Test Report
+
 Target: 10.10.21.191
 
 ### Information Gathering Phase
@@ -38,13 +39,11 @@ lets go for open port 21.
 
 ![ftp login](../assets/bountyhacker/bountyftplogin.png)
 
-![lftp login](../assets/bountyhacker/bountyftplogin.png)
-
 Found 2 files, lets get it...
 
 ![ftp error](../assets/bountyhacker/bountyftperror.png)
 
-I don't know why ftp is giving not working. So I tried to use it's alternative which is lftp.  It works same as ftp. 
+I don't know why ftp is giving not working. So I tried to use it's alternative which is lftp. It works same as ftp. 
 
 ![lftp ls](../assets/bountyhacker/bountylftpls.png)
 
@@ -75,8 +74,7 @@ Login successful!!
 ![tar](../assets/bountyhacker/bountylintar.png)
 
 
-lin@bountyhacker:~/Desktop$ sudo -l
-
+    lin@bountyhacker:~$ sudo -l
     User lin may run the following commands on bountyhacker:
         (root) /bin/tar
 
@@ -99,6 +97,6 @@ OHH.. I got the root shell!!
 
 ### Final Thought
 
-The room has been quite engaging so far, and I've successfully navigated the challenges it presented. My only setback was connecting to the FTP server, but I discovered an alternative to FTP, which is LFTP. I'm eager to proceed to the next room.
+The room has been quite engaging so far, and I've successfully navigated the challenges it presented. My only setback was connecting to the FTP server, but I discovered an alternative to FTP, which is LFTP. I'm eager to proceed to the next room. 
 
 ![bye](../assets/bountyhacker/bountybye.gif)

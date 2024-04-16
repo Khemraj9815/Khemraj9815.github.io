@@ -59,8 +59,18 @@ I got the hash for rsa key.
 
 Lets crack it!!
 
+assets/gameserver/gameserverhachcrasked.png
 
+![hash cat](../assets/gameserver/gameserverhashcat.png)
+
+![hash cracked](../assets/gameserver/gameserverhachcrasked.png)
+
+![hash password](../assets/gameserver/gameserverhashpass.png)
 
 ![yeah](../assets/gameserver/gameserveryeah.gif)
+
+
+Now I have both password and username. Lets login to ssh.
+
 
 

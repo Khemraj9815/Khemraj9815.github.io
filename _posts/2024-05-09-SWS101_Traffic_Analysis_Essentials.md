@@ -10,7 +10,7 @@ Network Security is about understanding the traffic that flows through the netwo
 
 # Network Security and Network Data
 
-### photo
+![network security](../assets/TrafficAnalysisEssentials/ds.png)
 
 ## Network Security
 
@@ -97,7 +97,6 @@ Collects the full packet data and analyze the data. Investigate the packet-level
 * Provides full network visibility.
 * Helps comprehensive baselining for asset tracking.
 * Helps to detect/respond to anomalies and threats.
-
 
 ## Does the Traffic Analysis Still Matter?
 

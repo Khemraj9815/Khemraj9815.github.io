@@ -1,6 +1,6 @@
 ---
-Title: SWS101 Flipped_class
-categories: [SWS101,Flipped_1]
+Title: SWS101 Flipped_class1
+categories: [SWS101,Flipped_Class]
 tags: SWS 101
 ---
 

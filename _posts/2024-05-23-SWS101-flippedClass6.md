@@ -22,8 +22,19 @@ tags: SWS 101
 
 When there is input from the user, it is stored in the registers. The registers are used to store the data temporarily. The data is then processed by the CPU. Result are drawn from the registers.
 
-### Memory and Addresses
-
-In the past, managing memory was complicated due to the limitations of early x86 processors. These processors had registers that could only hold 16 bits, limiting them to accessing up to 64 kilobytes of memory. 
 
 
+## Our First Program
+
+Here's the code for our first program in x86-64 assembly:
+
+
+    format PE64 NX GUI 6.0
+    entry start
+
+    section '.text' code readable executable
+    start:
+            int3
+            ret
+
+### Analyzing the Code

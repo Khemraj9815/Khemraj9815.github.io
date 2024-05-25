@@ -9,6 +9,7 @@ tags: SWS 101
 
 ## Executive Summary
 In this penetration test I explored Fawn hosted on hack The Box(HTB) with the goal of accessing system security my ability to gain full access to the system. The primary goal of this penetration test is to find the "flag.txt".
+
 ## Penetration Test Report
 Target: 10.129.220.120
 

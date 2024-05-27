@@ -14,7 +14,7 @@ In a Database Management System (DBMS), doing things like  adding, changing, or 
 
 ## ACID Properties
 
-![acid](../assets/flippedclass10/acid.png)
+![acid](../assets/flippedclass10/acidp.png)
 
 ## Serializability
 

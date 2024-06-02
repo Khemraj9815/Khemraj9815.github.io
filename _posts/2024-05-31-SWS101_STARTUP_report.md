@@ -8,8 +8,10 @@ tags: SWS 101
 
 ## Execute Summary
 
+This is a writeup about the machine "START UP". This machine is rated as easy. This machine is about finding hidden directories, analyzing pcapng file using wireshark, exploiting ftp and getting root access.
 
-Target: 
+
+Target: 10.10.74.218
 
 ## Information Gathering Phase
 
@@ -72,4 +74,41 @@ I found a user.txt.
 
 ![user.txt](../assets/startup/startupusertxt.png)
 
-Comming soon...
+Now there are two differnt directories. One is Document and other is scripts. Lets check it out.
+
+![document](../assets/startup/startupdocument.png)
+
+I didn't find anything useful in the document directory. So lets check out the scripts directory.
+
+![planner.sh](../assets/startup/startupplanner.png)
+
+This script echoes a variable into the startup_list.txt file. Then it executes another script called print.sh, let’s see what’s in there.
+
+![print.sh](../assets/startup/startupprint.png)
+
+Ahh I see, it echoes "Done!". May be we can echo something else to check whether it works or not.
+
+![success](../assets/startup/startupsuccess.png)
+
+I echoed "success" lets check whether it worked or not.
+
+![echo success](../assets/startup/startupechosuccess.png)
+
+It worked. That means the script is run by root everytime the machine starts. So lets try to get root access.
+
+So we edit print.sh script to get root shell instead.
+
+![bin bash](../assets/startup/startupbinbash.png)
+
+![bin bash listener](../assets/startup/startuplistener.png)
+
+![root shell](../assets/startup/startuprootshell.png)
+
+![root txt](../assets/startup/startuproottxt.png)
+
+
+### Final Thoughts
+
+This was a fun machine. This machine introduced me to new security tool called `wireshark`. And learned how to analyze pcapng file using wireshark. 
+
+![bye](../assets/startup/startupbye.gif)
